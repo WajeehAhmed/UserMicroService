@@ -19,5 +19,6 @@ public class UserEntity {
     private @Id @GeneratedValue Long id;
     private String name;
     private Integer age;
+    private String cellNumber;
     private LocalDateTime lastChangeTs;
 }
